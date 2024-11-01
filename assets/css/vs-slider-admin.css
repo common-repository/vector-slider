@@ -1,0 +1,132 @@
+.clearfix{
+    clear: both;
+}
+
+.wp-core-ui .notice.is-dismissible{
+    margin: 15px 0;
+}
+
+.vs-settings{
+    margin: 30px 0;
+}
+
+.vs-settings .container{
+    max-width: 1150px;
+}
+
+.primary.col-md-8{
+    width: 70%;
+    float: left;
+}
+
+.primary .nav{
+    width: 100%;
+    display: block;
+    margin: 0;
+    height: 43px;
+    background: #008EC2;
+}
+
+.primary .nav li {
+    display: inline-block;
+    float: left;
+    padding: 12px 15px;
+    margin: 0px;
+    border: 1px;
+    border-style: solid;
+    border-color: #008EC2;
+    border-bottom: 0;
+    background: #008EC2;
+}
+
+.primary .nav .cgt-nav-tabs.active {
+    background: #fff;
+}
+
+.primary .nav li a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.primary .nav .cgt-nav-tabs.active a {
+    color: #000;
+}
+
+.primary .vs-field-wrapper label{
+    line-height: 3;
+}
+
+.vector-slider-metabox{
+    width: 100%;
+}
+
+.vector-slider-metabox label{
+    display: block;
+}
+
+.vector-slider-metabox input[type="text"]{
+    width: 100%;
+}
+
+.vector-slider-metabox textarea{
+    width: 100%;
+}
+
+.primary .vs-field-wrapper .cgt-field select, 
+.primary .vs-field-wrapper .cgt-field input[type="text"]{
+    width: 100%;
+    max-width: 260px;
+}
+
+.vs-metabox.postbox {
+    padding: 15px;
+    border-top: 0;
+    border-left: 1px solid #008EC2;
+    margin-bottom: 0px;
+}
+
+.cgt-submit{
+    margin-top: 30px;
+}
+
+.secondary.col-md-4{
+  width: 28%; 
+  float: right; 
+}
+
+.secondary.col-md-4 img{
+    width: 100%;
+}
+
+.secondary h3{
+    margin-top: 0px;
+    background: #0088cc;
+    padding: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.secondary .more{
+    text-align: center;
+    padding: 7px 15px;
+    border: 1px solid #e9e9e9;
+    display: block;
+    margin-top: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #0088cc;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    .primary.col-md-8 , .secondary.col-md-4{
+        width: 100%;
+    }
+}
+
+
